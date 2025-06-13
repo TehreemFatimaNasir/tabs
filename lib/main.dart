@@ -343,7 +343,7 @@ class Prayertimes extends StatefulWidget {
 class _PrayertimesState extends State<Prayertimes> {
   var time = DateTime.now();
   final myCoordinates = Coordinates(24.8607, 67.0011);
-  late  PrayerTimes? todayPrayerTimes;
+   PrayerTimes? todayPrayerTimes;
 
   @override
   void initState() {
