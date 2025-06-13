@@ -381,7 +381,7 @@ Widget build(BuildContext context) {
     body: Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
              Text("Fajr:", style: TextStyle(fontSize: 18)),
              Text(DateFormat.jm().format(todayPrayerTimes!.fajr), style: TextStyle(fontSize: 18)),
